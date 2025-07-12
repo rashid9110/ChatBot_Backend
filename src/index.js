@@ -29,7 +29,7 @@ app.post('/ping', (req, res) => {
 //   await connectDB();
 //   console.log(`Server started at port ${ServerConfig.PORT}`);
 // });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, async () => {
   await connectDB();
   console.log(`Server started at port ${PORT}`);
