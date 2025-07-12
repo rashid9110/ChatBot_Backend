@@ -1,7 +1,8 @@
 
 
 const AdmissionScheduleService = require("../services/AdmissionScheduleService");
-const PromptService = require("../services/promptService");
+const PromptService = require("../services/PromptService");
+/services/promptService
 const moment = require('moment');
 const RegistrationService = require("../services/RegistrationService");
 
