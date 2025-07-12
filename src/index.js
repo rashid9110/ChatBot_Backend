@@ -9,10 +9,11 @@ const ChatbotRouter = require("./router/ChatbotRouter");
 const app = express();
 
 app.use(cors({
-  origin: 'https://universitychatbot.netlify.app/', // <-- Allow your Vite frontend
+  origin: 'https://universitychatbot.netlify.app', // ✅ no trailing slash
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 app.use(express.json());
 app.use(express.text());
